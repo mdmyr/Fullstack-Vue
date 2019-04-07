@@ -1,0 +1,97 @@
+///here are very simple installation logs for future reference. 
+
+
+YuvaRajs-MacBook-Pro-3:FullStack YuvaRaj$  npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help json` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (fullstack)
+version: (1.0.0)
+description: fullstack for the firsttime
+entry point: (index.js)
+test command:
+git repository:
+keywords:
+author: YuvaRaj
+license: (ISC)
+About to write to /Users/YuvaRaj/Desktop/New Tools/FullStack/package.json:
+
+{
+  "name": "fullstack",
+  "version": "1.0.0",
+  "description": "fullstack for the firsttime",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "YuvaRaj",
+  "license": "ISC"
+}
+
+
+Is this ok? (yes) yes
+YuvaRajs-MacBook-Pro-3:FullStack YuvaRaj$ npm i express cors body-parser mongodb
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN fullstack@1.0.0 No repository field.
+
++ cors@2.8.5
++ body-parser@1.18.3
++ express@4.16.4
++ mongodb@3.2.3
+added 62 packages in 13.425s
+YuvaRajs-MacBook-Pro-3:FullStack YuvaRaj$ npm -i D nodemon
+
+Usage: npm <command>
+
+where <command> is one of:
+    access, adduser, bin, bugs, c, cache, completion, config,
+    ddp, dedupe, deprecate, dist-tag, docs, doctor, edit,
+    explore, get, help, help-search, i, init, install,
+    install-test, it, link, list, ln, login, logout, ls,
+    outdated, owner, pack, ping, prefix, profile, prune,
+    publish, rb, rebuild, repo, restart, root, run, run-script,
+    s, se, search, set, shrinkwrap, star, stars, start, stop, t,
+    team, test, token, tst, un, uninstall, unpublish, unstar,
+    up, update, v, version, view, whoami
+
+npm <command> -h     quick help on <command>
+npm -l           display full usage info
+npm help <term>  search for help on <term>
+npm help npm     involved overview
+
+Specify configs in the ini-formatted file:
+    /Users/YuvaRaj/.npmrc
+or on the command line via: npm <command> --key value
+Config info can be viewed via: npm help config
+
+npm@5.6.0 /usr/local/lib/node_modules/npm
+YuvaRajs-MacBook-Pro-3:FullStack YuvaRaj$ npm i -D nodemon
+
+> fsevents@1.2.7 install /Users/YuvaRaj/Desktop/New Tools/FullStack/node_modules/fsevents
+> node install
+
+node-pre-gyp WARN Using needle for node-pre-gyp https download
+[fsevents] Success: "/Users/YuvaRaj/Desktop/New Tools/FullStack/node_modules/fsevents/lib/binding/Release/node-v59-darwin-x64/fse.node" is installed via remote
+
+> nodemon@1.18.10 postinstall /Users/YuvaRaj/Desktop/New Tools/FullStack/node_modules/nodemon
+> node bin/postinstall || exit 0
+
+Love nodemon? You can now support the project via the open collective:
+ > https://opencollective.com/nodemon/donate
+
+npm WARN fullstack@1.0.0 No repository field.
+
++ nodemon@1.18.10
+added 284 packages in 34.839s
+YuvaRajs-MacBook-Pro-3:FullStack YuvaRaj$  mkdir server/
+YuvaRajs-MacBook-Pro-3:FullStack YuvaRaj$ cd server/
+YuvaRajs-MacBook-Pro-3:server YuvaRaj$ ls
+YuvaRajs-MacBook-Pro-3:server YuvaRaj$ touch index.js
+YuvaRajs-MacBook-Pro-3:server YuvaRaj$ cler
